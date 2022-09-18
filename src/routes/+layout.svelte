@@ -3,7 +3,7 @@
 	import '../font.css';
 	import '@fortawesome/fontawesome-free/js/all.min.js';
 
-	let menu1 = '../images/menu1.png';
+	let menu1 = 'https://github.com/JiHun-star/VOiCE-ko/blob/main/src/images/menu1.png';
 	let menu2 = '../images/menu2.png';
 
 	let pageNum = 1;
