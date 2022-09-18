@@ -1,15 +1,6 @@
 {
 	"extends": "./.svelte-kit/tsconfig.json",
 	"compilerOptions": {
-		"moduleResolution": "node",
-		"module": "es2020",
-		"lib": ["es2020", "DOM"],
-		"target": "es2020",
-
-		"importsNotUsedAsValues": "error",
-		"isolatedModules": true,
-		"baseUrl": ".",
-
 		"allowJs": true,
 		"checkJs": true,
 		"esModuleInterop": true,
@@ -19,8 +10,7 @@
 		"sourceMap": true,
 		"strict": true,
 		"suppressImplicitAnyIndexErrors": true
-	},
-	"include": ["src/**/*.d.ts", "src/**/*.js", "src/**/*.ts", "src/**/*.svelte"]
+	}
 	// Path aliases are handled by https://kit.svelte.dev/docs/configuration#alias
 	//
 	// If you want to overwrite includes/excludes, make sure to copy over the relevant includes/excludes
