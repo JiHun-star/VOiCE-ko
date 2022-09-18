@@ -29,7 +29,7 @@
 			}}
 		>
 			<a href="/producers"
-				><img class="object-cover shadow-xl rounded-2xl" src={menu2} alt="메인" /></a
+				><img class="object-cover shadow-xl rounded-2xl" src={menu2} alt="프로듀서" /></a
 			>
 		</li>
 	</ul>
