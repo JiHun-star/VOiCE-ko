@@ -2,9 +2,7 @@
 	import '../app.css';
 	import '../font.css';
 	import '@fortawesome/fontawesome-free/js/all.min.js';
-
-	let menu1 = 'src/images/menu1.png';
-	let menu2 = '/src/images/menu2.png';
+	import Error from './+error.svelte';
 
 	let pageNum = 1;
 </script>
@@ -21,7 +19,12 @@
 				pageNum = 1;
 			}}
 		>
-			<a href="/"><img class="object-cover shadow-xl rounded-2xl" src={menu1} alt="메인" /></a>
+			<a href="/"
+				><div
+					id="pmenu1"
+					class="pmenu object-cover shadow-xl rounded-2xl bg-[url('src/images/menu1.png')] bg-cover"
+				/></a
+			>
 		</li>
 		<li
 			on:click={() => {
@@ -29,7 +32,9 @@
 			}}
 		>
 			<a href="/producers"
-				><img class="object-cover shadow-xl rounded-2xl" src={menu2} alt="프로듀서" /></a
+				><div
+					class="pmenu object-cover shadow-xl rounded-2xl bg-[url('src/images/menu2.png')] bg-cover"
+				/></a
 			>
 		</li>
 	</ul>
@@ -95,6 +100,7 @@
 </footer>
 
 <style>
+	/* 1024px이상 */
 	#pnav {
 		position: fixed;
 		top: 50%;
@@ -107,16 +113,18 @@
 		gap: 10px;
 	}
 
-	#pnav ul li {
+	.pmenu {
+		display: inline-block;
 		width: 5rem;
 		height: 5rem;
 	}
 
-	#pnav ul li img:hover {
+	.pmenu:hover {
 		transition: all 0.3s ease-out;
 		transform: scale(1.1);
 	}
 
+	/* 1024px이하 */
 	#mnav {
 		position: fixed;
 		top: 3%;
