@@ -19,7 +19,11 @@
 			}}
 		>
 			<a href="/"
-				><img class="object-cover shadow-xl rounded-2xl" src="src/images/menu1.png" alt="메인" /></a
+				><img
+					class="object-cover shadow-xl rounded-2xl"
+					src="/src/images/menu1.png"
+					alt="메인"
+				/></a
 			>
 		</li>
 		<li
@@ -28,7 +32,11 @@
 			}}
 		>
 			<a href="/producers"
-				><img class="object-cover shadow-xl rounded-2xl" src="src/images/menu2.png" alt="메인" /></a
+				><img
+					class="object-cover shadow-xl rounded-2xl"
+					src="/src/images/menu2.png"
+					alt="메인"
+				/></a
 			>
 		</li>
 	</ul>
