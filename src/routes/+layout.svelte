@@ -3,6 +3,9 @@
 	import '../font.css';
 	import '@fortawesome/fontawesome-free/js/all.min.js';
 
+	let menu1 = '/src/images/menu1.png';
+	let menu2 = '/src/images/menu2.png';
+
 	let pageNum = 1;
 </script>
 
@@ -18,13 +21,7 @@
 				pageNum = 1;
 			}}
 		>
-			<a href="/"
-				><img
-					class="object-cover shadow-xl rounded-2xl"
-					src="/src/images/menu1.png"
-					alt="메인"
-				/></a
-			>
+			<a href="/"><img class="object-cover shadow-xl rounded-2xl" src={menu1} alt="메인" /></a>
 		</li>
 		<li
 			on:click={() => {
@@ -32,11 +29,7 @@
 			}}
 		>
 			<a href="/producers"
-				><img
-					class="object-cover shadow-xl rounded-2xl"
-					src="/src/images/menu2.png"
-					alt="메인"
-				/></a
+				><img class="object-cover shadow-xl rounded-2xl" src={menu2} alt="메인" /></a
 			>
 		</li>
 	</ul>
