@@ -1,0 +1,53 @@
+:root {
+	--cFont: 'GowunDodum-Regular';
+	--tFont: 'RixInooAriDuriR';
+}
+
+@font-face {
+	font-family: 'RixInooAriDuriR';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2207-01@1.0/RixInooAriDuriR.woff2')
+		format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GowunDodum-Regular';
+	src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/GowunDodum-Regular.woff')
+		format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+h1,
+h2,
+h3,
+b {
+	font-family: var(--tFont);
+}
+
+h4,
+h5,
+p,
+a,
+li {
+	font-family: var(--cFont);
+}
+
+p,
+i {
+	display: inline-block;
+	font-style: normal;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+h3 {
+	font-size: 1.5rem;
+}

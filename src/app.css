@@ -1,0 +1,39 @@
+/* tailwind 적용 */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	scroll-margin: none;
+	-ms-overflow-style: none;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+main {
+	padding-bottom: 10rem;
+	width: 100vw;
+	height: 100vh;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+section {
+	padding-top: 10rem;
+}
+
+iframe {
+	aspect-ratio: 16/9;
+}
