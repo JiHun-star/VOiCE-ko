@@ -3,7 +3,7 @@
 	import '../font.css';
 	import '@fortawesome/fontawesome-free/js/all.min.js';
 
-	let menu1 = './src/images/menu1.png';
+	let menu1 = 'menu1.png';
 	let menu2 = './src/images/menu2.png';
 
 	let pageNum = 1;
