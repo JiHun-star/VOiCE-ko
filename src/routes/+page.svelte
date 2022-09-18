@@ -126,7 +126,7 @@
 
 <style>
 	main {
-		background-image: url('./images/bg1.jpg');
+		background-image: url('../images/bg1.jpg');
 		overflow: scroll;
 	}
 
