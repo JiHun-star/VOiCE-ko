@@ -12,7 +12,7 @@ const config = {
 	],
 
 	kit: {
-		adapter: netlify({ edge: true })
+		adapter: adapter()
 	}
 };
 
