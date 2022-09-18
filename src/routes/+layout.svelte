@@ -19,23 +19,14 @@
 				pageNum = 1;
 			}}
 		>
-			<a href="/"
-				><div
-					id="pmenu1"
-					class="pmenu object-cover shadow-xl rounded-2xl bg-[url('src/images/menu1.png')] bg-cover"
-				/></a
-			>
+			<a href="/" class="pbtn1 shadow-xl rounded-2xl bg-cover"><div class="pmenu" /></a>
 		</li>
 		<li
 			on:click={() => {
 				pageNum = 2;
 			}}
 		>
-			<a href="/producers"
-				><div
-					class="pmenu object-cover shadow-xl rounded-2xl bg-[url('src/images/menu2.png')] bg-cover"
-				/></a
-			>
+			<a href="/producers" class="pbtn2 shadow-xl rounded-2xl bg-cover"><div class="pmenu" /></a>
 		</li>
 	</ul>
 </nav>
@@ -113,15 +104,30 @@
 		gap: 10px;
 	}
 
+	#pnav ul li a {
+		display: inline-block;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	#pnav ul li a:hover {
+		transition: all 0.3s ease-out;
+		transform: scale(1.1);
+	}
+
+	.pbtn1 {
+		background-image: url('../images/menu1.png');
+	}
+
+	.pbtn2 {
+		background-image: url('../images/menu2.png');
+	}
+
 	.pmenu {
 		display: inline-block;
 		width: 5rem;
 		height: 5rem;
-	}
-
-	.pmenu:hover {
-		transition: all 0.3s ease-out;
-		transform: scale(1.1);
 	}
 
 	/* 1024px이하 */
