@@ -1,9 +1,6 @@
 {
 	"name": "vo-ce--",
 	"version": "0.0.1",
-	"private": true,
-	"types": "module",
-	"main": "app.html",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
