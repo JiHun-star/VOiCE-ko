@@ -2,6 +2,7 @@
 	"name": "vo-ce--",
 	"version": "0.0.1",
 	"private": true,
+	"main": "app.html",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
