@@ -19,14 +19,18 @@
 				pageNum = 1;
 			}}
 		>
-			<a href="/" class="pbtn1 shadow-xl rounded-2xl bg-cover"><div class="pmenu" /></a>
+			<a href="/"
+				><img src="/images/menu1.png" alt="introduce" class="menubtn shadow-xl rounded-2xl" /></a
+			>
 		</li>
 		<li
 			on:click={() => {
 				pageNum = 2;
 			}}
 		>
-			<a href="/producers" class="pbtn2 shadow-xl rounded-2xl bg-cover"><div class="pmenu" /></a>
+			<a href="/producers"
+				><img src="/images/menu2.png" alt="producers" class="menubtn shadow-xl rounded-2xl" /></a
+			>
 		</li>
 	</ul>
 </nav>
@@ -104,30 +108,14 @@
 		gap: 10px;
 	}
 
-	#pnav ul li a {
-		display: inline-block;
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center;
-	}
-
-	#pnav ul li a:hover {
-		transition: all 0.3s ease-out;
-		transform: scale(1.1);
-	}
-
-	.pbtn1 {
-		background-image: url('../images/menu1.png');
-	}
-
-	.pbtn2 {
-		background-image: url('../images/menu2.png');
-	}
-
-	.pmenu {
-		display: inline-block;
+	.menubtn {
 		width: 5rem;
 		height: 5rem;
+	}
+
+	.menubtn:hover {
+		transition: all 0.3s ease-out;
+		transform: scale(1.1);
 	}
 
 	/* 1024px이하 */
