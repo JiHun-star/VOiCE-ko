@@ -2,7 +2,7 @@
 	<section>
 		<h1>VO!CE PRODUCERS</h1>
 		<h1>준비중 입니다 !!</h1>
-		<img src="./src/lib/1.png" alt="별다소니" />
+		<img src="../src/lib/1.png" alt="별다소니" />
 	</section>
 </main>
 
