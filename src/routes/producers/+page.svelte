@@ -1,5 +1,15 @@
 <script>
 	import { producers } from '$lib/store';
+	import { onMount } from 'svelte';
+
+	let loaded = false;
+	let thisModal;
+
+	onMount(() => {
+		thisModal.onload = () => {
+			loaded = true;
+		};
+	});
 </script>
 
 <main>
@@ -21,7 +31,7 @@
 
 				<!-- Put this part before </body> tag -->
 				<input type="checkbox" id="my-modal-{producer.no}" class="modal-toggle" />
-				<div class="modal">
+				<div class="modal" class:loaded bind:this={thisModal}>
 					<div class="modal-box relative">
 						<label
 							for="my-modal-{producer.no}"
@@ -75,5 +85,13 @@
 	img {
 		width: 88px;
 		height: 88px;
+	}
+
+	.modal {
+		opacity: 0;
+	}
+
+	.loaded {
+		opacity: 1;
 	}
 </style>
