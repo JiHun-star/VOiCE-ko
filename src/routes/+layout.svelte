@@ -44,7 +44,7 @@
 				pageNum = 1;
 			}}
 		>
-			<a href="/">!ntroduce</a>
+			<a href="/"><h3 class="text-base">!ntroduce</h3></a>
 		</li>
 		<li
 			class:bg-primary={pageNum === 2}
@@ -53,7 +53,7 @@
 				pageNum = 2;
 			}}
 		>
-			<a href="/producers">Producers</a>
+			<a href="/producers"><h3 class="text-base">Producers</h3></a>
 		</li>
 	</ul>
 </nav>
@@ -125,11 +125,6 @@
 		left: 50%;
 		z-index: 999;
 		transform: translateX(-50%);
-	}
-
-	#mnav ul li a {
-		font-family: var(--tFont);
-		font-size: 1rem;
 	}
 
 	footer {
