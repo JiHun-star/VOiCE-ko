@@ -3,6 +3,7 @@
 	import { onMount } from 'svelte';
 	import { Image } from 'svelte-lazy-loader';
 	import { count } from '$lib/store';
+	import Lazy from '$lib/Lazy.svelte';
 
 	onMount(() => {
 		count.set(2);
@@ -31,12 +32,14 @@
 					<!-- The button to open modal -->
 					<label for="my-modal-{producer.no}" class="avatar modal-button">
 						<div class="rounded-full hover:ring ring-secondary ring-offset-base-100 ring-offset-2">
-							<img
-								src="/images/profile/{producer.no}.png"
-								alt={producer.name}
-								width="88px"
-								height="88px"
-							/>
+							<Lazy height={300}>
+								<img
+									src="/images/profile/{producer.no}.png"
+									alt={producer.name}
+									width="88px"
+									height="88px"
+								/>
+							</Lazy>
 						</div>
 					</label>
 				</div>
@@ -70,14 +73,16 @@
 							</b>
 						</h5>
 						<div class="divider" />
-						<iframe
-							class="mx-auto my-0 w-11/12 border-4 border-secondary"
-							src={producer.src}
-							title="YouTube video player"
-							frameborder="0"
-							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
-							allowfullscreen
-						/>
+						<Lazy height={300}>
+							<iframe
+								class="mx-auto my-0 w-11/12 border-4 border-secondary"
+								src={producer.src}
+								title="YouTube video player"
+								frameborder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+								allowfullscreen
+							/>
+						</Lazy>
 					</div>
 				</div>
 			{/each}
