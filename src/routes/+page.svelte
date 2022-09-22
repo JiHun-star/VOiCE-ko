@@ -1,3 +1,12 @@
+<script>
+	import { onMount } from 'svelte';
+	import { count } from '$lib/store';
+
+	onMount(() => {
+		count.set(1);
+	});
+</script>
+
 <main>
 	<!-- monthly video -->
 	<section class="monthly">

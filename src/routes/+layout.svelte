@@ -3,8 +3,13 @@
 	import '../font.css';
 	import '@fortawesome/fontawesome-free/js/all.min.js';
 	import Error from './+error.svelte';
+	import { count } from '$lib/store';
 
-	let pageNum = '1';
+	let countValue;
+
+	const unsubscribe = count.subscribe((value) => {
+		countValue = value;
+	});
 </script>
 
 <svelte:head>
@@ -14,20 +19,12 @@
 <!-- navigation -->
 <nav id="pnav">
 	<ul class="hidden lg:flex flex-col">
-		<li
-			on:click={() => {
-				pageNum = '1';
-			}}
-		>
+		<li>
 			<a href="/">
 				<img src="/images/menu1.png" alt="introduce" class="menubtn shadow-xl rounded-2xl" />
 			</a>
 		</li>
-		<li
-			on:click={() => {
-				pageNum = '2';
-			}}
-		>
+		<li>
 			<a href="/producers">
 				<img src="/images/menu2.png" alt="producers" class="menubtn shadow-xl rounded-2xl" />
 			</a>
@@ -37,22 +34,10 @@
 
 <nav id="mnav" class="opacity-90 lg:hidden">
 	<ul class="menu menu-horizontal bg-base-100 rounded-box shadow-xl">
-		<li
-			class:bg-primary={pageNum === '1'}
-			class:text-base-100={pageNum === '1'}
-			on:click={() => {
-				pageNum = '1';
-			}}
-		>
+		<li class:bg-primary={countValue === 1} class:text-base-100={countValue === 1}>
 			<a href="/"><h3 class="text-base">!ntroduce</h3></a>
 		</li>
-		<li
-			class:bg-primary={pageNum === '2'}
-			class:text-base-100={pageNum === '2'}
-			on:click={() => {
-				pageNum = '2';
-			}}
-		>
+		<li class:bg-primary={countValue === 2} class:text-base-100={countValue === 2}>
 			<a href="/producers"><h3 class="text-base">Producers</h3></a>
 		</li>
 	</ul>

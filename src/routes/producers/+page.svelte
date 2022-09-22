@@ -2,6 +2,11 @@
 	import { producers } from '$lib/store';
 	import { onMount } from 'svelte';
 	import { Image } from 'svelte-lazy-loader';
+	import { count } from '$lib/store';
+
+	onMount(() => {
+		count.set(2);
+	});
 
 	//모달로딩
 	let loaded = false;
