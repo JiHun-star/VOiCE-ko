@@ -35,8 +35,8 @@
 	</ul>
 </nav>
 
-<nav id="mnav" class="opacity-90 shadow-xl lg:hidden">
-	<ul class="menu menu-horizontal bg-base-100 rounded-box">
+<nav id="mnav" class="opacity-90 lg:hidden">
+	<ul class="menu menu-horizontal bg-base-100 rounded-box shadow-xl">
 		<li
 			class:bg-primary={pageNum === '1'}
 			class:text-base-100={pageNum === '1'}
