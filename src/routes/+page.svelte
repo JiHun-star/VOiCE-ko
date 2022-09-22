@@ -1,4 +1,18 @@
+<script>
+	//로딩화면
+	import { onMount } from 'svelte';
+
+	let loading = false;
+
+	onMount(() => {
+		loading = true;
+	});
+</script>
+
 <main>
+	{#if !loading}
+		<div class="loading"><i class="fa-solid fa-star-of-life fa-3x fa-spin" /></div>
+	{/if}
 	<!-- monthly video -->
 	<section class="monthly">
 		<h1>
@@ -127,6 +141,21 @@
 </main>
 
 <style>
+	.loading {
+		position: fixed;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 999;
+
+		display: grid;
+		place-items: center;
+
+		background-color: #1c1917;
+		color: #fafaf9;
+	}
+
 	main {
 		background-image: url('/images/bg1.jpg');
 		overflow: scroll;
