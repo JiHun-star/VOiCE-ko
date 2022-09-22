@@ -18,43 +18,44 @@
 						</div>
 					</label>
 				</div>
+
+				<!-- Put this part before </body> tag -->
+				<input type="checkbox" id="my-modal-{producer.no}" class="modal-toggle" />
+				<div class="modal">
+					<div class="modal-box relative">
+						<label
+							for="my-modal-{producer.no}"
+							class="btn btn-sm btn-circle absolute right-2 top-2"
+						>
+							✕
+						</label>
+						<img
+							src="/images/profile/{producer.no}.png"
+							alt={producer.name}
+							class="rounded-full mx-auto my-0"
+						/>
+						<h4 class="py-2 text-xl font-bold">{producer.name}</h4>
+						<h5 class="text-sm text-error">
+							<i class="fa-brands fa-youtube" />
+							<b>
+								<a class="link link-hover" href={producer.channel} target="_blank">
+									YouTube Channel 바로가기
+								</a>
+							</b>
+						</h5>
+						<div class="divider" />
+						<iframe
+							class="mx-auto my-0 w-11/12 border-4 border-secondary"
+							src={producer.src}
+							title="YouTube video player"
+							frameborder="0"
+							allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+							allowfullscreen
+						/>
+					</div>
+				</div>
 			{/each}
 		</article>
-
-		{#each producers as producer}
-			<!-- Put this part before </body> tag -->
-			<input type="checkbox" id="my-modal-{producer.no}" class="modal-toggle" />
-			<div class="modal">
-				<div class="modal-box relative">
-					<label for="my-modal-{producer.no}" class="btn btn-sm btn-circle absolute right-2 top-2">
-						✕
-					</label>
-					<img
-						src="/images/profile/{producer.no}.png"
-						alt={producer.name}
-						class="rounded-full mx-auto my-0"
-					/>
-					<h4 class="py-2 text-xl font-bold">{producer.name}</h4>
-					<h5 class="text-sm text-error">
-						<i class="fa-brands fa-youtube" />
-						<b>
-							<a class="link link-hover" href={producer.channel} target="_blank">
-								YouTube Channel 바로가기
-							</a>
-						</b>
-					</h5>
-					<div class="divider" />
-					<iframe
-						class="mx-auto my-0 w-11/12 border-4 border-secondary"
-						src={producer.src}
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					/>
-				</div>
-			</div>
-		{/each}
 	</section>
 </main>
 
