@@ -1,6 +1,7 @@
 <script>
 	import { producers } from '$lib/store';
 	import { onMount } from 'svelte';
+	import { Image } from 'svelte-lazy-loader';
 
 	//모달로딩
 	let loaded = false;
@@ -25,7 +26,13 @@
 					<!-- The button to open modal -->
 					<label for="my-modal-{producer.no}" class="avatar modal-button">
 						<div class="rounded-full hover:ring ring-secondary ring-offset-base-100 ring-offset-2">
-							<img src="/images/profile/{producer.no}.png" alt={producer.name} />
+							<Image
+								src="/images/profile/{producer.no}.png"
+								alt={producer.name}
+								loading="lazy"
+								width="88px"
+								height="88px"
+							/>
 						</div>
 					</label>
 				</div>
@@ -40,11 +47,15 @@
 						>
 							✕
 						</label>
-						<img
-							src="/images/profile/{producer.no}.png"
-							alt={producer.name}
-							class="rounded-full mx-auto my-0"
-						/>
+						<div class="rounded-full mx-auto my-0 overflow-hidden profileimg">
+							<Image
+								src="/images/profile/{producer.no}.png"
+								alt={producer.name}
+								loading="lazy"
+								width="88px"
+								height="88px"
+							/>
+						</div>
 						<h4 class="py-2 text-xl font-bold">{producer.name}</h4>
 						<h5 class="text-sm text-error">
 							<i class="fa-brands fa-youtube" />
@@ -83,16 +94,16 @@
 		cursor: pointer;
 	}
 
-	img {
-		width: 88px;
-		height: 88px;
-	}
-
 	.modal {
 		opacity: 0;
 	}
 
 	.loaded {
 		opacity: 1;
+	}
+
+	.profileimg {
+		width: 88px;
+		height: 88px;
 	}
 </style>

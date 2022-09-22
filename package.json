@@ -36,6 +36,7 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^6.2.0",
 		"@netlify/functions": "^1.2.0",
-		"daisyui": "^2.27.0"
+		"daisyui": "^2.27.0",
+		"svelte-lazy-loader": "^1.0.0"
 	}
 }

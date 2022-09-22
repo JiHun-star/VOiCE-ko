@@ -4,7 +4,7 @@
 	import '@fortawesome/fontawesome-free/js/all.min.js';
 	import Error from './+error.svelte';
 
-	let pageNum = 1;
+	let pageNum = '1';
 </script>
 
 <svelte:head>
@@ -16,7 +16,7 @@
 	<ul class="hidden lg:flex flex-col">
 		<li
 			on:click={() => {
-				pageNum = 1;
+				pageNum = '1';
 			}}
 		>
 			<a href="/">
@@ -25,7 +25,7 @@
 		</li>
 		<li
 			on:click={() => {
-				pageNum = 2;
+				pageNum = '2';
 			}}
 		>
 			<a href="/producers">
@@ -38,19 +38,19 @@
 <nav id="mnav" class="opacity-90 shadow-xl lg:hidden">
 	<ul class="menu menu-horizontal bg-base-100 rounded-box">
 		<li
-			class:bg-primary={pageNum === 1}
-			class:text-base-100={pageNum === 1}
+			class:bg-primary={pageNum === '1'}
+			class:text-base-100={pageNum === '1'}
 			on:click={() => {
-				pageNum = 1;
+				pageNum = '1';
 			}}
 		>
 			<a href="/"><h3 class="text-base">!ntroduce</h3></a>
 		</li>
 		<li
-			class:bg-primary={pageNum === 2}
-			class:text-base-100={pageNum === 2}
+			class:bg-primary={pageNum === '2'}
+			class:text-base-100={pageNum === '2'}
 			on:click={() => {
-				pageNum = 2;
+				pageNum = '2';
 			}}
 		>
 			<a href="/producers"><h3 class="text-base">Producers</h3></a>
@@ -75,7 +75,9 @@
 					target="_blank">Byeol Dasoni</a
 				>
 			</h4>
-			<h5 class="py-4"><b>framework & library</b><br />- Sveltekit, Tailwind CSS, daisyUI</h5>
+			<h5 class="py-4">
+				<b>framework & library</b><br />- Sveltekit, Tailwind CSS, daisyUI, svelte-lazy-loader
+			</h5>
 			<h5 class="py-4"><b>fonts</b><br />- Rix이누아리두리네, 고운돋움</h5>
 			<h5 class="py-4"><b>images</b><br />- Unsplash</h5>
 			<h5 class="py-4">
