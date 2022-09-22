@@ -1,4 +1,5 @@
 <main>
+	<!-- monthly video -->
 	<section class="monthly">
 		<h1>
 			VO!CE CHART
@@ -16,17 +17,18 @@
 		<br />
 		<h5 class="py-4 text-error">
 			<i class="fa-brands fa-youtube" />
-			<b
-				><a
+			<b>
+				<a
 					class="link link-hover"
 					href="https://www.youtube.com/channel/UCZQvu2SAjwJypMEQoHLLYOA"
 					target="_blank"
 				>
 					YouTube Channel 바로가기
-				</a></b
-			>
+				</a>
+			</b>
 		</h5>
 	</section>
+	<!-- introduce -->
 	<section class="introduce">
 		<h2>WHAT is VO!CE ?</h2>
 		<br />
@@ -85,8 +87,8 @@
 					아직 여러가지 미흡한 부분이 많이 있지만 부디 너그럽게 봐주시고,
 					<br />문의사항이 있으시면 언제든지
 					<a href="https://twitter.com/rlarkspx" target="_blank" class="link link-info">
-						<i class="fa-brands fa-twitter" /> 트위터 DM</a
-					> 으로 말씀해주세요!
+						<i class="fa-brands fa-twitter" /> 트위터 DM
+					</a> 으로 말씀해주세요!
 				</h4>
 			</div>
 			<div class="divider" />

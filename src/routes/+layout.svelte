@@ -19,18 +19,18 @@
 				pageNum = 1;
 			}}
 		>
-			<a href="/"
-				><img src="/images/menu1.png" alt="introduce" class="menubtn shadow-xl rounded-2xl" /></a
-			>
+			<a href="/">
+				<img src="/images/menu1.png" alt="introduce" class="menubtn shadow-xl rounded-2xl" />
+			</a>
 		</li>
 		<li
 			on:click={() => {
 				pageNum = 2;
 			}}
 		>
-			<a href="/producers"
-				><img src="/images/menu2.png" alt="producers" class="menubtn shadow-xl rounded-2xl" /></a
-			>
+			<a href="/producers">
+				<img src="/images/menu2.png" alt="producers" class="menubtn shadow-xl rounded-2xl" />
+			</a>
 		</li>
 	</ul>
 </nav>
@@ -57,7 +57,7 @@
 		</li>
 	</ul>
 </nav>
-
+<!-- page -->
 <slot />
 <!-- footer modal -->
 <footer>
@@ -80,15 +80,15 @@
 			<h5 class="py-4"><b>images</b><br />- Unsplash</h5>
 			<h5 class="py-4">
 				<i class="fa-brands fa-youtube" />
-				<b
-					><a
+				<b>
+					<a
 						class="link link-hover"
 						href="https://www.youtube.com/channel/UCZQvu2SAjwJypMEQoHLLYOA"
 						target="_blank"
 					>
 						YouTube Channel 바로가기
-					</a></b
-				>
+					</a>
+				</b>
 			</h5>
 		</label>
 	</label>
