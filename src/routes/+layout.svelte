@@ -62,11 +62,11 @@
 <!-- footer modal -->
 <footer>
 	<!-- The button to open modal -->
-	<label for="my-modal-4" class="copy modal-button"><i class="fa-regular fa-copyright" /></label>
+	<label for="my-modal-f" class="copy modal-button"><i class="fa-regular fa-copyright" /></label>
 
 	<!-- Put this part before </body> tag -->
-	<input type="checkbox" id="my-modal-4" class="modal-toggle" />
-	<label for="my-modal-4" class="modal cursor-pointer modal-bottom">
+	<input type="checkbox" id="my-modal-f" class="modal-toggle" />
+	<label for="my-modal-f" class="modal cursor-pointer modal-bottom">
 		<label class="modal-box relative bg-primary-focus" for="">
 			<h4 class="text-lg font-bold">
 				&copy; 2022 <a
