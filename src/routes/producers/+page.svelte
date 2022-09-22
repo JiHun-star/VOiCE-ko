@@ -31,10 +31,9 @@
 					<!-- The button to open modal -->
 					<label for="my-modal-{producer.no}" class="avatar modal-button">
 						<div class="rounded-full hover:ring ring-secondary ring-offset-base-100 ring-offset-2">
-							<Image
+							<img
 								src="/images/profile/{producer.no}.png"
 								alt={producer.name}
-								loading="lazy"
 								width="88px"
 								height="88px"
 							/>
