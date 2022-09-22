@@ -61,7 +61,8 @@
 				>
 			</h4>
 			<h5 class="py-4">
-				<b>framework & library</b><br />- Sveltekit, Tailwind CSS, daisyUI, svelte-lazy-loader
+				<b>framework & library</b><br />- Sveltekit, Tailwind CSS, daisyUI, svelte-lazy-loader,
+				Svelte Lazy
 			</h5>
 			<h5 class="py-4"><b>fonts</b><br />- Rix이누아리두리네, 고운돋움</h5>
 			<h5 class="py-4"><b>images</b><br />- Unsplash</h5>
