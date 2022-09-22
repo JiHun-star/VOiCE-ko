@@ -45,7 +45,7 @@
 					</h5>
 					<div class="divider" />
 					<iframe
-						class="mx-auto my-0 w-11/12 border-4 border-primary"
+						class="mx-auto my-0 w-11/12 border-4 border-secondary"
 						src={producer.src}
 						title="YouTube video player"
 						frameborder="0"
