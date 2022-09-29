@@ -327,5 +327,11 @@ export const producers = [
 		name: 'koze_1070',
 		channel: 'https://www.youtube.com/channel/UCEvmzjKIFBrsmE8HiAxd-VA',
 		src: 'https://www.youtube.com/embed/ED7XG8BgSTA'
+	},
+	{
+		no: '55',
+		name: '流星楽団/유성악단',
+		channel: 'https://www.youtube.com/channel/UCSyjNPdCint3mtHwTOW202w',
+		src: 'https://www.youtube.com/embed/MnPygzlQ1Hk'
 	}
 ];
