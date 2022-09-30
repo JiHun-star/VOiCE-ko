@@ -29,6 +29,11 @@
 				<img src="/images/menu2.png" alt="producers" class="menubtn shadow-xl rounded-2xl" />
 			</a>
 		</li>
+		<li>
+			<a href="/cooperation">
+				<img src="/images/menu3.png" alt="cooperation" class="menubtn shadow-xl rounded-2xl" />
+			</a>
+		</li>
 	</ul>
 </nav>
 
@@ -39,6 +44,9 @@
 		</li>
 		<li class:bg-primary={countValue === 2} class:text-base-100={countValue === 2}>
 			<a href="/producers"><h3 class="text-base">Producers</h3></a>
+		</li>
+		<li class:bg-primary={countValue === 3} class:text-base-100={countValue === 3}>
+			<a href="/cooperation"><h3 class="text-base">Cooperation</h3></a>
 		</li>
 	</ul>
 </nav>
