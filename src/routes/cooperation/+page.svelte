@@ -19,6 +19,15 @@
 					</p>
 				</div>
 			</div>
+
+			<div class="card w-80 bg-base-content shadow-xl lg:w-96">
+				<div class="card-body text-stone-700">
+					<h2 class="card-title">동아크루</h2>
+					<p class="text-left indent-2">
+						한국 동인계 아티스트를 중심으로 설립된 네이버 카페입니다.
+					</p>
+				</div>
+			</div>
 		</article>
 	</section>
 </main>
