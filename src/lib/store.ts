@@ -333,5 +333,11 @@ export const producers = [
 		name: '유성악단',
 		channel: 'https://www.youtube.com/channel/UCSyjNPdCint3mtHwTOW202w',
 		src: 'https://www.youtube.com/embed/MnPygzlQ1Hk'
+	},
+	{
+		no: '56',
+		name: '채미유',
+		channel: 'https://www.youtube.com/channel/UCv4nnX-Uf4nzKQ40uILDDDA',
+		src: 'https://www.youtube.com/embed/zwipqDRJIxQ'
 	}
 ];
