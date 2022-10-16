@@ -13,9 +13,9 @@
 		<article class="flex flex-wrap flex-row justify-center gap-5">
 			<div class="card w-80 bg-base-content shadow-xl lg:w-96">
 				<div class="card-body text-stone-700">
-					<h2 class="card-title">한국 보카로P 연합회</h2>
+					<h2 class="card-title">한국 서브컬쳐 연합회</h2>
 					<p class="text-left indent-2">
-						보컬로이드 분야에서 활동하시는 한국 창작자 분들이 교류하는 디스코드 서버 입니다.
+						한국 서브컬쳐 분야에서 활동하시는 다양한 분들이 교류하는 디스코드 서버 입니다.
 					</p>
 				</div>
 			</div>
