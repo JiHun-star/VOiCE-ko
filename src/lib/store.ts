@@ -345,5 +345,11 @@ export const producers = [
 		name: '카메냥(마약P)',
 		channel: 'https://www.youtube.com/c/카메냥',
 		src: 'https://www.youtube.com/embed/Zdk_gcFLVqA'
-	}
+	},
+	{
+		no: '58',
+		name: '악기히로',
+		channel: 'https://youtube.com/channel/UCVArBk95RmS4-Xs1X-k8VPA',
+		src: 'https://www.youtube.com/embed/ygFo0tXIhmg'
+	},
 ];
