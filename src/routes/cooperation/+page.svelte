@@ -15,7 +15,7 @@
 				<div class="card-body text-stone-700">
 					<h2 class="card-title">한국 서브컬쳐 연합회</h2>
 					<p class="text-left indent-2">
-						한국 서브컬쳐 분야에서 활동하시는 다양한 분들이 교류하는 디스코드 서버 입니다.
+						한국 서브컬쳐 분야에서 활동하시는 다양한 분들이 교류하고 있는 커뮤니티 입니다.
 					</p>
 				</div>
 			</div>
