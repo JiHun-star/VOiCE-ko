@@ -352,4 +352,10 @@ export const producers = [
 		channel: 'https://youtube.com/channel/UCVArBk95RmS4-Xs1X-k8VPA',
 		src: 'https://www.youtube.com/embed/ygFo0tXIhmg'
 	},
+	{
+		no: '59',
+		name: 'Producer.P',
+		channel: 'https://youtube.com/channel/UCarEOkNB1sqPxUCr8jWRTDA',
+		src: 'https://www.youtube.com/embed/w-EQ79fHoW4'
+	},
 ];
