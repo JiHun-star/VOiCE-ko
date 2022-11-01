@@ -25,12 +25,12 @@
 			</a>
 		</li>
 		<li>
-			<a href="/producers">
+			<a href="/producers" data-sveltekit-prefetch>
 				<img src="/images/menu2.png" alt="producers" class="menubtn shadow-xl rounded-2xl" />
 			</a>
 		</li>
 		<li>
-			<a href="/cooperation">
+			<a href="/cooperation" data-sveltekit-prefetch>
 				<img src="/images/menu3.png" alt="cooperation" class="menubtn shadow-xl rounded-2xl" />
 			</a>
 		</li>
