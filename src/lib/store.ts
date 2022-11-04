@@ -6,7 +6,7 @@ export const count = writable(0);
 export const producers = [
 	{
 		no: '1',
-		name: '별의 바다에 가라앉고 있어 / 별다소니',
+		name: '별다소니',
 		channel: 'https://www.youtube.com/channel/UCDn4683YUTBdzSVRRrpZLYQ',
 		src: 'https://www.youtube.com/embed/l7ZAeTQhnZ0'
 	},
@@ -358,4 +358,10 @@ export const producers = [
 		channel: 'https://youtube.com/channel/UCarEOkNB1sqPxUCr8jWRTDA',
 		src: 'https://www.youtube.com/embed/w-EQ79fHoW4'
 	},
+	{
+		no: '60',
+		name: '라토/L4T0',
+		channel: 'https://www.youtube.com/channel/UCjyweJYRXvCuwHaRKYl5lnA',
+		src: 'https://www.youtube.com/embed/whyR_YHOB1c'
+	}
 ];
