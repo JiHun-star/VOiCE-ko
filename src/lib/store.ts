@@ -363,5 +363,11 @@ export const producers = [
 		name: '라토/L4T0',
 		channel: 'https://www.youtube.com/channel/UCjyweJYRXvCuwHaRKYl5lnA',
 		src: 'https://www.youtube.com/embed/whyR_YHOB1c'
+	},
+	{
+		no: '61',
+		name: 'Noa',
+		channel: 'https://www.youtube.com/@storyofnoa',
+		src: 'https://www.youtube.com/embed/elLDow9HrGg'
 	}
 ];
