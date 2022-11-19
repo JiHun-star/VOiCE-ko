@@ -369,5 +369,11 @@ export const producers = [
 		name: 'Noa',
 		channel: 'https://www.youtube.com/@storyofnoa',
 		src: 'https://www.youtube.com/embed/elLDow9HrGg'
+	},
+	{
+		no: '62',
+		name: '아델와이스',
+		channel: 'https://www.youtube.com/channel/UClVyHdvM82w6z7vHd62T-hw',
+		src: 'https://www.youtube.com/embed/vTIt767DVIc'
 	}
 ];
