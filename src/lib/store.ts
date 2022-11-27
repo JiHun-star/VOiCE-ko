@@ -375,5 +375,11 @@ export const producers = [
 		name: '아델와이스',
 		channel: 'https://www.youtube.com/channel/UClVyHdvM82w6z7vHd62T-hw',
 		src: 'https://www.youtube.com/embed/vTIt767DVIc'
+	},
+	{
+		no: '63',
+		name: '아누시카',
+		channel: 'https://youtube.com/@anoosika',
+		src: 'https://www.youtube.com/embed/Uj8fAISEAdI'
 	}
 ];
