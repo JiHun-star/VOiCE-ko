@@ -381,5 +381,11 @@ export const producers = [
 		name: '아누시카',
 		channel: 'https://youtube.com/@anoosika',
 		src: 'https://www.youtube.com/embed/Uj8fAISEAdI'
+	},
+	{
+		no: '64',
+		name: 'exp',
+		channel: 'https://www.youtube.com/@exp9674',
+		src: 'https://www.youtube.com/embed/rThv9TNO4H8'
 	}
 ];
