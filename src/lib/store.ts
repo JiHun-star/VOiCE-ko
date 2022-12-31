@@ -387,5 +387,11 @@ export const producers = [
 		name: 'exp',
 		channel: 'https://www.youtube.com/@exp9674',
 		src: 'https://www.youtube.com/embed/rThv9TNO4H8'
+	},
+	{
+		no: '65',
+		name: '머루p',
+		channel: 'https://www.youtube.com/@meoru_p',
+		src: 'https://www.youtube.com/embed/SV_j0LJSGPQ'
 	}
 ];
