@@ -393,5 +393,11 @@ export const producers = [
 		name: '머루p',
 		channel: 'https://www.youtube.com/@meoru_p',
 		src: 'https://www.youtube.com/embed/SV_j0LJSGPQ'
+	},
+	{
+		no: '66',
+		name: '夏亀',
+		channel: 'https://www.youtube.com/channel/UCnUYORJzHHTRivslImruBCw',
+		src: 'https://www.youtube.com/embed/ziI3tmxH8Ic'
 	}
 ];
