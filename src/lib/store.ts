@@ -259,7 +259,7 @@ export const producers = [
 	{
 		no: '43',
 		name: '혼울봄',
-		channel: 'https://www.youtube.com/c/혼울봄',
+		channel: 'https://www.youtube.com/@honoolbom',
 		src: 'https://www.youtube.com/embed/9fRMTI1RwSY'
 	},
 	{
