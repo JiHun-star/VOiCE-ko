@@ -216,9 +216,9 @@ export const producers = [
 	},
 	{
 		no: '36',
-		name: 'Gyuwon',
-		channel: 'https://www.youtube.com/channel/UCo469jh3z6jKrGMgA9Izjyg',
-		src: ''
+		name: '버망',
+		channel: 'https://www.youtube.com/@bumangbolup',
+		src: 'https://www.youtube.com/embed/aJtDSk-ynjI'
 	},
 	{
 		no: '37',
