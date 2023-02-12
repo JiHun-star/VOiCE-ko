@@ -411,5 +411,11 @@ export const producers = [
 		name: 'oxygenvil',
 		channel: 'https://www.youtube.com/@oxygenvil',
 		src: 'https://www.youtube.com/embed/goAkjKJ52lY'
+	},
+	{
+		no: '69',
+		name: '하얀이리',
+		channel: 'https://youtube.com/@user-mz3tb3go9r',
+		src: 'https://www.youtube.com/embed/2k8bzPAw2BA'
 	}
 ];
