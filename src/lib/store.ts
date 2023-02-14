@@ -417,5 +417,11 @@ export const producers = [
 		name: '하얀이리',
 		channel: 'https://youtube.com/@user-mz3tb3go9r',
 		src: 'https://www.youtube.com/embed/2k8bzPAw2BA'
+	},
+	{
+		no: '70',
+		name: '모내미',
+		channel: 'https://www.youtube.com/@monaemi5051',
+		src: 'https://www.youtube.com/embed/0RXmlCecIbs'
 	}
 ];
