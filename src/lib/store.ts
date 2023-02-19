@@ -423,5 +423,11 @@ export const producers = [
 		name: '모내미',
 		channel: 'https://www.youtube.com/@monaemi5051',
 		src: 'https://www.youtube.com/embed/0RXmlCecIbs'
+	},
+	{
+		no: '71',
+		name: 'zer0h',
+		channel: 'https://www.youtube.com/@_0_zero_h',
+		src: 'https://www.youtube.com/embed/RP_8ElqbuUo'
 	}
 ];
