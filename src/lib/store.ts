@@ -429,5 +429,11 @@ export const producers = [
 		name: 'zer0h',
 		channel: 'https://www.youtube.com/@_0_zero_h',
 		src: 'https://www.youtube.com/embed/RP_8ElqbuUo'
+	},
+	{
+		no: '72',
+		name: 'haruaki',
+		channel: 'https://www.youtube.com/channel/UCldhDlrnXqMyFkMOOilgKoA',
+		src: 'https://www.youtube.com/embed/od_YvLm5Z8o'
 	}
 ];
