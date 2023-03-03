@@ -453,5 +453,11 @@ export const producers = [
 		name: '라이스패퍼',
 		channel: 'https://www.youtube.com/@2324ricepaper',
 		src: 'https://www.youtube.com/embed/G8EaVpca5p4'
+	},
+	{
+		no: '76',
+		name: '히나(HEENA)',
+		channel: 'https://www.youtube.com/channel/UC_W-ai2WUEZnEIdrh1XoPyw',
+		src: 'https://www.youtube.com/embed/8kj_gbhbQEM'
 	}
 ];
