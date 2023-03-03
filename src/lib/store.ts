@@ -447,5 +447,11 @@ export const producers = [
 		name: '影',
 		channel: 'https://www.youtube.com/channel/UCsnfjs6bczzP6HiN1efv1kA',
 		src: 'https://www.youtube.com/embed/hgp6g8K_3vs'
+	},
+	{
+		no: '75',
+		name: '라이스패퍼',
+		channel: 'https://www.youtube.com/@2324ricepaper',
+		src: 'https://www.youtube.com/embed/G8EaVpca5p4'
 	}
 ];
